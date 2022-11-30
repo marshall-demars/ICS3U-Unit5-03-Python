@@ -55,7 +55,7 @@ def main():
         print("\nInvalid Input")
     else:
         print(
-            "\nLevel {0} has a middle percentage of {1}%.".format(mark, final_percent)
+            "\nLevel {0} has a percentage of {1}%.".format(mark, final_percent)
         )
 
     print("\nDone.")
