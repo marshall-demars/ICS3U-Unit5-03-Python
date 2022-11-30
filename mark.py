@@ -43,7 +43,7 @@ def mark_to_percentage(mark):
 
 
 def main():
-    # this function gets the mark
+    # this function gets the mark and catches errors
 
     # Input
     mark = input("Enter the mark you want converted to percentage (Ex: 3+): ")
@@ -54,7 +54,9 @@ def main():
     if final_percent == -1:
         print("\nInvalid Input")
     else:
-        print("\nLevel {0} has a middle percentage of {1}%.".format(mark, final_percent))
+        print(
+            "\nLevel {0} has a middle percentage of {1}%.".format(mark, final_percent)
+        )
 
     print("\nDone.")
 
